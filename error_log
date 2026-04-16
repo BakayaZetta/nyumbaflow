@@ -1,0 +1,590 @@
+[11-Mar-2026 16:53:25 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:05:26 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:05:35 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:05:36 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:05:37 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:05:38 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:05:39 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:09:20 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:09:29 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:21:34 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:21:39 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:21:42 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:21:49 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:22:00 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:32:26 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.house_number' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:32:29 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.house_number' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:32:31 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.house_number' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:32:33 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.house_number' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:32:34 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.house_number' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:32:54 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.house_number' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:32:59 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.house_number' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:33:00 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.house_number' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:33:01 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.house_number' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:33:02 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.house_number' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 17:33:02 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.house_number' in 'ON' in /home/nusrwymj/public_html/index.php:84
+Stack trace:
+#0 /home/nusrwymj/public_html/index.php(84): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/index.php on line 84
+[11-Mar-2026 18:01:29 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:01:29 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:01:29 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:01:50 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:01:50 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:01:50 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:01:51 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:01:51 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:01:51 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:02:04 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:04 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:04 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:02:09 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:09 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:09 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:02:22 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:22 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:22 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:02:23 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:23 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:23 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:02:42 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:42 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:42 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:02:45 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:45 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:02:45 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:11:59 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:11:59 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:11:59 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:16:11 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:16:11 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:16:11 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:16:36 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:16:36 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:16:36 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:20:18 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:20:18 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:20:18 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:20:22 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:20:22 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:20:22 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:20:33 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:20:33 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:20:33 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:20:36 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:20:36 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:20:36 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:23:37 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:23:37 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:23:37 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:26:24 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:26:24 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:26:24 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:26:48 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:26:48 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:26:48 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:30:03 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:30:03 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:30:03 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:32:10 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:90
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(90): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 90
+[11-Mar-2026 18:32:14 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:90
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(90): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 90
+[11-Mar-2026 18:32:19 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:90
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(90): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 90
+[11-Mar-2026 18:32:20 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:90
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(90): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 90
+[11-Mar-2026 18:35:00 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:35:00 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:35:00 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:36:00 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:90
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(90): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 90
+[11-Mar-2026 18:46:34 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:46:34 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:46:34 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:49:38 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:49:38 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:49:38 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:51:42 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:51:42 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:51:42 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 18:55:37 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:55:37 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 18:55:37 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 19:00:40 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:00:40 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:00:40 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 19:00:49 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:00:49 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:00:49 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 19:01:50 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:01:50 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:01:50 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 19:10:06 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'george.njamura@gmail.com' for key 'email' in /home/nusrwymj/public_html/super_login.php:16
+Stack trace:
+#0 /home/nusrwymj/public_html/super_login.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/super_login.php on line 16
+[11-Mar-2026 19:10:34 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'george.njamura@gmail.com' for key 'email' in /home/nusrwymj/public_html/super_login.php:16
+Stack trace:
+#0 /home/nusrwymj/public_html/super_login.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/super_login.php on line 16
+[11-Mar-2026 19:13:26 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:13:26 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:13:26 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 19:13:33 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:13:33 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:13:33 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 19:15:07 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:15:07 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:15:07 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 19:18:10 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:18:10 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:18:10 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[11-Mar-2026 19:18:55 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:18:55 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[11-Mar-2026 19:18:55 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[12-Mar-2026 17:05:07 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[12-Mar-2026 17:05:07 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[12-Mar-2026 17:05:07 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[13-Mar-2026 21:58:07 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[13-Mar-2026 21:58:07 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[13-Mar-2026 21:58:07 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[13-Mar-2026 21:58:09 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[13-Mar-2026 21:58:09 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[13-Mar-2026 21:58:09 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[15-Mar-2026 14:00:35 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:90
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(90): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 90
+[15-Mar-2026 14:00:39 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:90
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(90): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 90
+[15-Mar-2026 14:01:12 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:90
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(90): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 90
+[15-Mar-2026 14:01:53 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[15-Mar-2026 14:01:53 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[15-Mar-2026 14:01:53 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[16-Mar-2026 10:45:14 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 10:45:14 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 10:45:14 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[16-Mar-2026 11:03:50 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 11:03:50 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 11:03:50 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[16-Mar-2026 11:03:55 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 11:03:55 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 11:03:55 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[16-Mar-2026 12:13:44 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 12:13:44 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 12:13:44 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[16-Mar-2026 12:16:18 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 12:16:18 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 12:16:18 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[16-Mar-2026 12:17:49 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 12:17:49 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 12:17:49 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[16-Mar-2026 12:19:06 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 12:19:06 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 12:19:06 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[16-Mar-2026 12:20:03 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 12:20:03 Africa/Nairobi] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/nusrwymj/public_html/session_check.php on line 7
+[16-Mar-2026 12:20:03 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/tenants.php:1) in /home/nusrwymj/public_html/session_check.php on line 30
+[16-Mar-2026 20:00:37 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'george.njamura@gmail.com' for key 'email' in /home/nusrwymj/public_html/super_login.php:16
+Stack trace:
+#0 /home/nusrwymj/public_html/super_login.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/super_login.php on line 16
+[16-Mar-2026 20:00:45 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'george.njamura@gmail.com' for key 'email' in /home/nusrwymj/public_html/super_login.php:16
+Stack trace:
+#0 /home/nusrwymj/public_html/super_login.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/super_login.php on line 16
+[16-Mar-2026 20:05:29 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:90
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(90): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 90
+[16-Mar-2026 20:05:34 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:90
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(90): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 90
+[16-Mar-2026 20:12:21 Africa/Nairobi] SMS not sent: API credentials missing.
+[16-Mar-2026 20:16:28 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 16:23:22 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:90
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(90): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 90
+[17-Mar-2026 16:34:45 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/nusrwymj/public_html/gate.php on line 10
+[17-Mar-2026 16:34:45 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:98
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(98): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 98
+[17-Mar-2026 16:44:31 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:94
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(94): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 94
+[17-Mar-2026 16:47:57 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:126
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(126): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 126
+[17-Mar-2026 16:50:20 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'v.unit_id' in 'ON' in /home/nusrwymj/public_html/gate.php:126
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(126): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 126
+[17-Mar-2026 16:58:35 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_image' in 'INSERT INTO' in /home/nusrwymj/public_html/gate.php:57
+Stack trace:
+#0 /home/nusrwymj/public_html/gate.php(57): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/gate.php on line 57
+[17-Mar-2026 17:01:31 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:01:31 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:07:18 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:07:18 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:07:32 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:07:32 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:11:52 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:11:52 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:12:31 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:12:31 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:16:51 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:25:32 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:27:23 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 17:27:30 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 19:04:21 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 19:24:14 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 19:26:19 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'george.njamura@gmail.com' for key 'email' in /home/nusrwymj/public_html/super_login.php:16
+Stack trace:
+#0 /home/nusrwymj/public_html/super_login.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/super_login.php on line 16
+[17-Mar-2026 19:30:07 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 19:30:07 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 19:49:50 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 19:49:57 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 19:50:03 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 19:50:07 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 19:50:10 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 19:50:14 Africa/Nairobi] SMS not sent: API credentials missing.
+[17-Mar-2026 19:50:18 Africa/Nairobi] SMS not sent: API credentials missing.
+[19-Mar-2026 11:51:47 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'samuel@bakaya.tech' for key 'email' in /home/nusrwymj/public_html/super_login.php:16
+Stack trace:
+#0 /home/nusrwymj/public_html/super_login.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/super_login.php on line 16
+[19-Mar-2026 11:56:47 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/nusrwymj/public_html/super_login.php on line 7
+[19-Mar-2026 11:56:47 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'samuel@bakaya.tech' for key 'email' in /home/nusrwymj/public_html/super_login.php:21
+Stack trace:
+#0 /home/nusrwymj/public_html/super_login.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nusrwymj/public_html/super_login.php on line 21
+[19-Mar-2026 12:04:29 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/nusrwymj/public_html/super_login.php on line 7
+[19-Mar-2026 12:05:09 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/nusrwymj/public_html/super_login.php on line 7
+[19-Mar-2026 12:06:12 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/nusrwymj/public_html/super_login.php on line 7
+[19-Mar-2026 12:06:12 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/super_login.php:7) in /home/nusrwymj/public_html/super_login.php on line 37
+[19-Mar-2026 12:11:54 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /home/nusrwymj/public_html/super_login.php on line 7
+[19-Mar-2026 12:11:54 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nusrwymj/public_html/super_login.php:7) in /home/nusrwymj/public_html/super_login.php on line 37
+[26-Mar-2026 13:53:55 Africa/Nairobi] SMS not sent: API credentials missing.
+[28-Mar-2026 15:19:11 Africa/Nairobi] SMS not sent: API credentials missing.
+[28-Mar-2026 15:19:18 Africa/Nairobi] SMS not sent: API credentials missing.
+[28-Mar-2026 15:19:33 Africa/Nairobi] SMS not sent: API credentials missing.
+[28-Mar-2026 15:20:55 Africa/Nairobi] SMS not sent: API credentials missing.
+[28-Mar-2026 15:23:06 Africa/Nairobi] SMS not sent: API credentials missing.
+[28-Mar-2026 15:24:45 Africa/Nairobi] SMS not sent: API credentials missing.
+[28-Mar-2026 15:24:56 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 00:41:43 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 00:43:10 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 01:22:50 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 01:23:01 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 01:25:30 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 01:55:23 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 02:35:48 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 03:27:06 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 03:27:15 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 04:04:49 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 04:11:04 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 04:36:10 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 05:05:49 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 06:18:56 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 09:00:31 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 09:16:26 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 09:25:36 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 09:25:36 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 09:33:20 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 10:49:52 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 10:50:28 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 10:53:53 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 10:54:01 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 10:58:06 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 11:52:27 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 13:29:24 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 13:29:24 Africa/Nairobi] Automation Bill Gen Error for Prop 11: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 13:29:24 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 13:29:24 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 13:29:28 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 13:29:29 Africa/Nairobi] Automation Bill Gen Error for Prop 11: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 13:29:29 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 13:29:29 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 13:29:38 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 13:29:38 Africa/Nairobi] Automation Bill Gen Error for Prop 11: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 13:29:38 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 13:29:38 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 13:29:47 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 13:29:48 Africa/Nairobi] Automation Bill Gen Error for Prop 11: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 13:29:48 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 13:29:48 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 13:29:53 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 13:29:53 Africa/Nairobi] Automation Bill Gen Error for Prop 11: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 13:29:53 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 13:29:53 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 13:31:02 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 13:31:03 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 13:52:26 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 15:02:44 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 15:23:06 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 15:30:36 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 15:31:51 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 15:31:54 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 15:31:54 Africa/Nairobi] Automation Bill Gen Error for Prop 2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 15:31:54 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 15:31:54 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 15:33:28 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 15:33:28 Africa/Nairobi] Automation Bill Gen Error for Prop 2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 15:33:28 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 15:33:28 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 15:33:32 Africa/Nairobi] PHP Warning:  Undefined array key "admin_id" in /home/nusrwymj/public_html/automation_trigger.php on line 14
+[01-Apr-2026 15:42:04 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 15:42:04 Africa/Nairobi] Automation Bill Gen Error for Prop 2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 15:42:04 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 15:42:04 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 15:50:59 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 15:50:59 Africa/Nairobi] Automation Bill Gen Error for Prop 2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 15:50:59 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 15:50:59 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 15:58:29 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 15:58:29 Africa/Nairobi] Automation Bill Gen Error for Prop 2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 15:58:29 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 15:58:29 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(8): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 16:00:33 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 16:00:33 Africa/Nairobi] Automation Bill Gen Error for Prop 2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 16:00:33 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 16:00:33 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 16:00:44 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 16:00:44 Africa/Nairobi] Automation Bill Gen Error for Prop 2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 16:00:44 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 16:00:44 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 16:00:51 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 16:00:51 Africa/Nairobi] Automation Bill Gen Error for Prop 2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 16:00:51 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 16:00:51 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(4): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 16:02:57 Africa/Nairobi] PHP Warning:  Undefined array key "last_bill_gen_month" in /home/nusrwymj/public_html/automation_trigger.php on line 26
+[01-Apr-2026 16:02:57 Africa/Nairobi] Automation Bill Gen Error for Prop 2: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_bill_gen_month' in 'SET'
+[01-Apr-2026 16:02:57 Africa/Nairobi] PHP Warning:  Undefined array key "last_billing_sms_month" in /home/nusrwymj/public_html/automation_trigger.php on line 112
+[01-Apr-2026 16:02:57 Africa/Nairobi] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_billing_sms_month' in 'SET' in /home/nusrwymj/public_html/automation_trigger.php:117
+Stack trace:
+#0 /home/nusrwymj/public_html/automation_trigger.php(117): PDOStatement->execute(Array)
+#1 /home/nusrwymj/public_html/index.php(8): require_once('/home/nusrwymj/...')
+#2 {main}
+  thrown in /home/nusrwymj/public_html/automation_trigger.php on line 117
+[01-Apr-2026 17:43:10 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 17:43:10 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 17:43:10 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 17:43:10 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 17:43:10 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 17:43:10 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 17:43:10 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 17:45:48 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 17:45:50 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 18:07:01 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 18:07:01 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 18:13:00 Africa/Nairobi] SMS not sent: API credentials missing.
+[01-Apr-2026 18:14:15 Africa/Nairobi] SMS not sent: API credentials missing.

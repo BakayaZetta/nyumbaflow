@@ -42,12 +42,12 @@ define('DEFAULT_GARBAGE_FEE', 500.00);
 define('DEFAULT_LATE_FEE_RATE', 100.00);
 
 // Email Configuration (SMTP)
-define('SMTP_HOST', 's');
-define('SMTP_PORT', 587);
-define('SMTP_USER', 'your_username');
-define('SMTP_PASS', 'your_password');
-define('MAIL_FROM_ADDRESS', '');
-define('MAIL_FROM_NAME', 'Nyumbaflow Support');
+define('SMTP_HOST', 'mail.nyumbaflow.com');
+define('SMTP_PORT', 465);
+define('SMTP_USER', 'noreply@nyumbaflow.com');
+define('SMTP_PASS', '6yw%UCwDHIs.F^n(');
+define('MAIL_FROM_ADDRESS', 'noreply@nyumbaflow.com');
+define('MAIL_FROM_NAME', 'Nyumbaflow');
 
 // Debug Mode
 define('DEBUG_MODE', false);

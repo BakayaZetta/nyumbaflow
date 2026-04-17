@@ -97,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <button type="submit" class="btn">Login to Portal</button>
         </form>
         <p style="text-align:center; margin-top:20px; font-size:12px; color:#64748b;">
-            Landlord? <a href="auth.html" style="color:#38bdf8; text-decoration:none;">Login here</a>
+            Landlord? <a href="auth.php" style="color:#38bdf8; text-decoration:none;">Login here</a>
         </p>
     </div>
 </body>

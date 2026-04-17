@@ -205,7 +205,7 @@ require_once 'sanitize.php';
 
     <div class="footer">
         <p>&copy; <?php echo date('Y'); ?> Nyumbaflow. All rights reserved.</p>
-        <p>Powered by <a href="mailto:jacetechnologies@gmail.com">Jacetechnologies@gmail.com</a></p>
+        <p>Powered by <a href="mailto:info@nyumbaflow.com">info@nyumbaflow.com</a></p>
         <p>Contact: <a href="tel:+254725531336">+254 725 531336</a></p>
     </div>
 </div>

@@ -1,6 +1,8 @@
 <?php
 require_once 'db_config.php';
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 require_once 'sanitize.php';
 
 if (!isset($_SESSION['superadmin_id'])) {
@@ -39,6 +41,7 @@ $totalLandlords = $pdo->query("SELECT COUNT(*) FROM landlords WHERE role = 'admi
 $totalProperties = $pdo->query("SELECT COUNT(*) FROM properties")->fetchColumn();
 $totalTenants = $pdo->query("SELECT COUNT(*) FROM tenants")->fetchColumn();
 $totalRevenue = $pdo->query("SELECT SUM(amount - balance) FROM bills WHERE status IN ('paid', 'partial')")->fetchColumn() ?: 0;
+$pendingApprovals = $pdo->query("SELECT COUNT(*) FROM account_approvals WHERE status = 'pending'")->fetchColumn();
 
 // Landlord List
 $landlords = $pdo->query("
@@ -98,6 +101,12 @@ $landlords = $pdo->query("
             <div style="background: rgba(255,255,255,0.1); padding: 10px; border-radius: 8px;">
                 <i class="fas fa-chart-line"></i> Dashboard
             </div>
+            <a href="super_admin_approvals.php" style="display:block; color:#cbd5e1; text-decoration:none; padding:10px; border-radius:8px; margin-top:10px;">
+                <i class="fas fa-user-check"></i> Approvals
+            </a>
+            <a href="super_admin_settings.php" style="display:block; color:#cbd5e1; text-decoration:none; padding:10px; border-radius:8px; margin-top:8px;">
+                <i class="fas fa-cogs"></i> Settings
+            </a>
             <p style="margin-top: 50px; opacity: 0.5; font-size: 12px;">Logged in as: <?php echo esc($_SESSION['superadmin_name']); ?></p>
             <a href="logout.php" style="color: #94a3b8; text-decoration: none; font-size: 13px; display: block; margin-top: 10px;">Logout</a>
         </nav>
@@ -105,6 +114,14 @@ $landlords = $pdo->query("
     <div class="main">
         <header style="margin-bottom: 30px;">
             <h1>Administration Overview</h1>
+            <div style="margin-top: 10px; display: flex; gap: 12px; flex-wrap: wrap;">
+                <a href="super_admin_approvals.php" style="display:inline-block; padding:8px 12px; border-radius:8px; text-decoration:none; background:#e0f2fe; color:#075985; font-size:13px; font-weight:600;">
+                    Account Approvals (<?php echo (int)$pendingApprovals; ?> pending)
+                </a>
+                <a href="super_admin_settings.php" style="display:inline-block; padding:8px 12px; border-radius:8px; text-decoration:none; background:#f1f5f9; color:#334155; font-size:13px; font-weight:600;">
+                    Approval Settings
+                </a>
+            </div>
         </header>
 
         <?php if ($message): ?>

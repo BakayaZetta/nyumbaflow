@@ -1,6 +1,9 @@
 <?php
 require_once 'db_config.php';
 require_once 'csrf_token.php'; 
+
+$verification_status = $_GET['verification'] ?? '';
+$verification_message = trim($_GET['message'] ?? '');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -131,6 +134,26 @@ require_once 'csrf_token.php';
 
         .logo span {
             color: var(--secondary);
+        }
+
+        .verify-alert {
+            margin-bottom: 18px;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .verify-alert.success {
+            background: #dcfce7;
+            color: #166534;
+            border: 1px solid #86efac;
+        }
+
+        .verify-alert.error {
+            background: #fee2e2;
+            color: #991b1b;
+            border: 1px solid #fca5a5;
         }
 
         .tabs {
@@ -538,6 +561,12 @@ require_once 'csrf_token.php';
                     <h2>Nyumba<span>flow</span></h2>
                 </div>
 
+                <?php if ($verification_status === 'success' && $verification_message !== ''): ?>
+                    <div class="verify-alert success"><?php echo htmlspecialchars($verification_message); ?></div>
+                <?php elseif ($verification_status === 'error' && $verification_message !== ''): ?>
+                    <div class="verify-alert error"><?php echo htmlspecialchars($verification_message); ?></div>
+                <?php endif; ?>
+
                 <!-- Authorization Forms -->
                 <div class="auth-forms">
                     <div class="tabs">
@@ -598,6 +627,11 @@ require_once 'csrf_token.php';
                             <label for="signup-email">Email</label>
                             <input type="email" id="signup-email" name="email" class="form-control"
                                 placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-phone">Phone Number</label>
+                            <input type="tel" id="signup-phone" name="phone_number" class="form-control"
+                                placeholder="e.g. 0712345678" required>
                         </div>
                         <div class="form-group">
                             <label for="signup-password">Password</label>
@@ -1003,6 +1037,14 @@ require_once 'csrf_token.php';
                         .then(response => response.json())
                         .then(data => {
                             if (data.success) {
+                                if (data.verification_link) {
+                                    alert((data.message || 'Verification email was not delivered.') + "\n\nManual verification link:\n" + data.verification_link);
+                                    return;
+                                }
+
+                                if (data.pending_approval) {
+                                    alert('Login verification required. Your account is pending admin approval and access is limited.');
+                                }
                                 if (data.redirect) {
                                     window.location.href = data.redirect;
                                 } else {

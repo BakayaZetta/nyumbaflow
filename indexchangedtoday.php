@@ -14,7 +14,7 @@ if (isset($_SESSION['admin_id']) && isset($_SESSION['last_activity'])) {
     if (time() - $_SESSION['last_activity'] > 600) { // 10 minutes
         session_unset();
         session_destroy();
-        header("Location: auth.html");
+        header("Location: auth.php");
         exit();
     }
 }
@@ -22,7 +22,7 @@ $_SESSION['last_activity'] = time();
 
 // Check if landlord is logged in
 if (!isset($_SESSION['admin_id'])) {
-    header("Location: auth.html");
+    header("Location: auth.php");
     exit();
 }
 

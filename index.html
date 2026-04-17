@@ -284,7 +284,7 @@
           <img src="icons/visitors.png" alt=""><span>Visitors</span>
         </a>
 
-        <a href="auth.html" class="nav-link" onclick="logout(event)">
+        <a href="auth.php" class="nav-link" onclick="logout(event)">
           <img src="icons/logout.png" alt=""><span>Logout</span>
         </a>
       </nav>
@@ -305,7 +305,7 @@
 
         <div style="display:flex; align-items:center; gap:12px;">
           <!-- keep logout block and icon -->
-          <a class="logout" href="auth.html" onclick="logout(event)" title="Sign out">
+          <a class="logout" href="auth.php" onclick="logout(event)" title="Sign out">
             <img src="icons/logout.png" alt="Logout" />
             <span>Log out</span>
           </a>
@@ -562,7 +562,7 @@
       // small confirmation
       if (confirm('You will be logged out. Continue?')) {
         // simulate redirect to auth page (preserve your original link)
-        window.location.href = 'auth.html';
+        window.location.href = 'auth.php';
       }
     }
 

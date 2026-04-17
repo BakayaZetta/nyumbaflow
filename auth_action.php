@@ -54,13 +54,14 @@ function handleSignup() {
     
     $name = trim($_POST['name'] ?? '');
     $email = trim($_POST['email'] ?? '');
+    $phone_number = trim($_POST['phone_number'] ?? '');
     $password = $_POST['password'] ?? '';
     $confirm_password = $_POST['confirm_password'] ?? '';
     
     // Validation
-    if (empty($name) || empty($email) || empty($password)) {
+    if (empty($name) || empty($email) || empty($password) || empty($phone_number)) {
         http_response_code(400);
-        echo json_encode(['error' => 'All fields are required']);
+        echo json_encode(['error' => 'All fields are required (name, email, phone, password)']);
         return;
     }
     
@@ -98,25 +99,74 @@ function handleSignup() {
         return;
     }
     
-    // Hash password
-    $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-    
-    // Insert admin
     try {
-        $stmt = $pdo->prepare("INSERT INTO landlords (username, email, password) VALUES (?, ?, ?)");
-        $stmt->execute([$name, $email, $hashed_password]);
+        $pdo->beginTransaction();
+
+        // Hash password
+        $hashed_password = password_hash($password, PASSWORD_DEFAULT);
         
-        $_SESSION['admin_id'] = $pdo->lastInsertId();
-        $_SESSION['admin_email'] = $email;
-        $_SESSION['admin_name'] = $name;
+        // Insert user with pending_verification status
+        $stmt = $pdo->prepare("INSERT INTO landlords (username, email, password, phone_number, status) VALUES (?, ?, ?, ?, 'pending_verification')");
+        $stmt->execute([$name, $email, $hashed_password, $phone_number]);
         
-        echo json_encode(['success' => true, 'message' => 'Registration successful', 'redirect' => 'onboarding.html']);
+        $user_id = $pdo->lastInsertId();
+        
+        // Generate verification token
+        $token = bin2hex(random_bytes(32));
+        $expires_at = date('Y-m-d H:i:s', strtotime('+24 hours'));
+        
+        // Store verification token
+        $stmt = $pdo->prepare("INSERT INTO email_verifications (landlord_id, email, token, expires_at) VALUES (?, ?, ?, ?)");
+        $stmt->execute([$user_id, $email, $token, $expires_at]);
+        
+        // Send verification email
+        $emailService = new EmailService();
+        $email_sent = $emailService->sendEmailVerification($email, $token);
+
+        if (!$email_sent) {
+            $host = strtolower($_SERVER['HTTP_HOST'] ?? $_SERVER['SERVER_NAME'] ?? '');
+            $is_local = strpos($host, 'localhost') !== false || strpos($host, '127.0.0.1') !== false;
+
+            if ($is_local) {
+                $pdo->commit();
+                $verification_link = "http://" . ($_SERVER['HTTP_HOST'] ?? 'localhost') . dirname($_SERVER['PHP_SELF'] ?? '/') . "/verify_email.php?token=" . urlencode($token);
+
+                echo json_encode([
+                    'success' => true,
+                    'message' => 'Account created, but email delivery failed in local environment. Use the verification link below to continue testing.',
+                    'verification_link' => $verification_link,
+                    'redirect' => 'auth.php'
+                ]);
+                return;
+            }
+
+            $pdo->rollBack();
+            http_response_code(500);
+            echo json_encode(['error' => 'We could not send verification email right now. Please try again in a few minutes.']);
+            return;
+        }
+
+        $pdo->commit();
+        
+        // Log audit
+        logAudit('user_signup', 'landlord', $user_id, null, "User signed up: $email");
+        
+        echo json_encode([
+            'success' => true,
+            'message' => 'Registration successful! Please check your email to verify your account.',
+            'redirect' => 'auth.php'
+        ]);
     } catch (PDOException $e) {
+        if ($pdo->inTransaction()) {
+            $pdo->rollBack();
+        }
         error_log("Database error: " . $e->getMessage());
         http_response_code(500);
         echo json_encode(['error' => 'Internal server error']);
     }
 }
+
+
 
 function handleLogin() {
     global $pdo;
@@ -139,7 +189,7 @@ function handleLogin() {
     }
     
     try {
-        $stmt = $pdo->prepare("SELECT id, username, email, password, status FROM landlords WHERE email = ?");
+        $stmt = $pdo->prepare("SELECT id, username, email, password, phone_number, status FROM landlords WHERE email = ?");
         if (!$stmt) {
             throw new Exception("Database prepare failed: " . $pdo->errorInfo()[2]);
         }
@@ -163,6 +213,58 @@ function handleLogin() {
             return;
         }
 
+        // Check account status
+        if ($admin['status'] === 'pending_verification') {
+            http_response_code(403);
+            echo json_encode(['error' => 'Your account is pending email verification. Please check your email for the verification link.']);
+            return;
+        }
+
+        if ($admin['status'] === 'rejected') {
+            http_response_code(403);
+            echo json_encode(['error' => 'Your account has been rejected. Please contact support.']);
+            return;
+        }
+
+        if ($admin['status'] === 'pending_approval') {
+            // Account pending approval - allow login but send verification code
+            $verification_code = str_pad(random_int(0, 999999), 6, '0', STR_PAD_LEFT);
+            $expires_at = date('Y-m-d H:i:s', strtotime('+10 minutes'));
+            
+            // Store verification code
+            $stmt = $pdo->prepare("INSERT INTO login_verification_codes (landlord_id, code, method, expires_at) VALUES (?, ?, 'both', ?)");
+            $stmt->execute([$admin['id'], $verification_code, $expires_at]);
+            
+            // Send verification code via email
+            $emailService = new EmailService();
+            $emailService->send($admin['email'], 
+                'Login Verification Code - Nyumbaflow', 
+                "Your 6-digit verification code is: <strong>$verification_code</strong><br>This code expires in 10 minutes.<br><br>Please note: Your account is pending approval and you have limited access until approved.");
+            
+            // Send verification code via SMS if phone exists
+            if (!empty($admin['phone_number'])) {
+                require_once 'SmsService.php';
+                $smsService = new SmsService();
+                $smsService->sendSms($admin['phone_number'], "Your Nyumbaflow verification code is: $verification_code. Code expires in 10 minutes. Account pending approval.");
+            }
+            
+            // Store user ID in session temporarily for verification
+            $_SESSION['temp_admin_id'] = $admin['id'];
+            $_SESSION['temp_admin_email'] = $admin['email'];
+            $_SESSION['temp_admin_name'] = $admin['username'];
+            $_SESSION['account_pending'] = true;
+            
+            http_response_code(200);
+            echo json_encode([
+                'success' => true,
+                'message' => 'A 6-digit verification code has been sent to your email and SMS.',
+                'requires_verification' => true,
+                'pending_approval' => true,
+                'redirect' => 'verify_login_code.php'
+            ]);
+            return;
+        }
+
         if ($admin['status'] === 'banned') {
             http_response_code(403);
             echo json_encode(['error' => 'Your account has been banned. Please contact support.']);
@@ -177,7 +279,7 @@ function handleLogin() {
             session_regenerate_id(true);
         }
         
-        // Set session variables
+        // Set session variables for active account
         $_SESSION['admin_id'] = $admin['id'];
         $_SESSION['admin_email'] = $admin['email'];
         $_SESSION['admin_name'] = $admin['username'];
@@ -253,5 +355,16 @@ function handleResetPassword() {
     $updateStmt->execute([$hashed_password, $user['id']]);
     
     echo json_encode(['success' => true, 'message' => 'Your password has been reset successfully. You can now login.']);
+}
+
+function logAudit($action, $entity_type, $entity_id, $admin_id, $details) {
+    global $pdo;
+    try {
+        $ip_address = $_SERVER['REMOTE_ADDR'] ?? 'unknown';
+        $stmt = $pdo->prepare("INSERT INTO audit_log (action, entity_type, entity_id, admin_id, details, ip_address) VALUES (?, ?, ?, ?, ?, ?)");
+        $stmt->execute([$action, $entity_type, $entity_id, $admin_id, $details, $ip_address]);
+    } catch (Exception $e) {
+        error_log("Audit log error: " . $e->getMessage());
+    }
 }
 ?>
